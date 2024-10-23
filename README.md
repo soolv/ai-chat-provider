@@ -94,7 +94,17 @@ bun run lint
 
 # build
 bun run build
+
+# generate changeset interactively
+bun changeset
 ```
+
+### Releasing
+
+We use [changesets](https://github.com/changesets/changesets).
+
+Make sure to include a changeset with your PR when you make changes.
+When PRs are merged, the package will be published automatically.
 
 ## License
 
