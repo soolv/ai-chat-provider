@@ -24,11 +24,16 @@
   "files": ["dist"],
   "scripts": {
     "build": "tsup src/index.tsx --format cjs,esm --dts",
+    "changeset": "changeset",
+    "changeset:status": "changeset status",
+    "ci:publish": "bun run build && changeset publish",
+    "ci:version": "changeset version",
     "prepublishOnly": "bun run build",
     "lint": "biome check"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "@changesets/cli": "^2.27.9",
     "@types/bun": "^1.1.10",
     "@types/react": "^18.3.11",
     "bun-plugin-dts": "^0.3.0",
