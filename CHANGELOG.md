@@ -1,5 +1,11 @@
 # @soolv/ai-chat-provider
 
+## 1.0.1
+
+### Patch Changes
+
+- 12ebf73: remove pnpm dependency
+
 ## 1.0.0
 
 ### Major Changes

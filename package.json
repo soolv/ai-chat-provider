@@ -1,13 +1,17 @@
 {
   "name": "@soolv/ai-chat-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soolv/ai-chat-provider.git"
   },
   "type": "module",
-  "keywords": ["ai", "vercel-ai-sdk", "useChat"],
+  "keywords": [
+    "ai",
+    "vercel-ai-sdk",
+    "useChat"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/soolv/ai-chat-provider#readme",
   "bugs": "https://github.com/soolv/ai-chat-provider/issues",
@@ -21,7 +25,9 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.tsx --format cjs,esm --dts",
     "changeset": "changeset",
